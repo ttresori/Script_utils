@@ -84,13 +84,13 @@ then
     fi
 fi
 
-echo "Choose the size of Hard Disk in MO [5000]"
+echo "Choose the size of Hard Disk in MO [8000]"
 read Size_Disk
 echo "$Size_Disk MO of hard disk for $Name is ok ? [Y or N]"
 read Valid
 if [ $Valid = "N" ]
 then
-    echo "Choose the size of Hard Disk in MO [5000]"
+    echo "Choose the size of Hard Disk in MO [8000]"
 r   ead Size_Disk
 fi
 echo "Choose the name of the disk to the $Debian VM : [$Name]"
