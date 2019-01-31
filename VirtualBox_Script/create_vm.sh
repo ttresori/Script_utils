@@ -90,7 +90,8 @@ echo "$Size_Disk MO of hard disk for $Name is ok ? [Y or N]"
 read Valid
 if [ $Valid = "N" ]
 then
-    exit 1;
+    echo "Choose the size of Hard Disk in MO [5000]"
+r   ead Size_Disk
 fi
 echo "Choose the name of the disk to the $Debian VM : [$Name]"
 read Name_Disk
@@ -115,5 +116,5 @@ if [ $Valid = "n" ]
 then
     exit 1;
 fi
-VBoxManage startvm $Name start
+VBoxManage startvm $Name
 exit 1;
