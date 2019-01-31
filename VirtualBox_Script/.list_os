@@ -1,0 +1,28 @@
+|------------------------------------+
+| 32bits             64bits           |
+|             WINDOWS                 |
+|             -------                 |
+| WindowsXP           WindowsXP_64    |
+| Windows2003         Windows2003_64  |
+| WindowsVista        WindowsVista_64 |	
+| Windows2008         Windows2008_64  |
+| Windows7            Windows7_64     |
+| WindowsNT                           |
+|             LINUX                   |
+|             -----                   |
+| Linux22             Linux 2.2       |
+| Linux24             Linux24_64      | 
+| Linux26             Linux26_64      |	
+| Debian              Debian_64       |
+| OpenSUSE            OpenSUSE_64     |	
+| Fedora              Fedora_64       |
+| Mandriva            Mandriva_64     |	
+| RedHat              RedHat_64       |
+| Ubuntu              Ubuntu_64       |
+| Oracle              Oracle_64       |
+|             DOS                     |
+|             ---                     |
+| FreeBSD             FreeBSD_64      |
+| OpenBSD             OpenBSD_64      |
+| MacOS               MacOS_64        |
+-------------------------------------+

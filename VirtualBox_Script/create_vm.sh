@@ -7,7 +7,7 @@ echo "Choose a file-system : [OS_VERSION] Type -h for see the list of OS_NAME"
 read File_System
 if [ $File_System = "-h" ] 
 then
-    cat README.md
+    cat .list_os
     echo "\nChoose a file-system : [OS_VERSION];"
     read File_System
 fi
